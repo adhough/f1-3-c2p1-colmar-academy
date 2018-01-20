@@ -1,0 +1,347 @@
+/* Universal Styles */
+
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+.main-content {
+  position: relative;
+  top: 5.3125rem; /* To offset for fixed header. */
+}
+
+.center {
+  text-align: center;
+}
+
+.button {
+  border-radius: 4px;
+  background-color: #4a4a4a;
+  color: white;
+}
+
+.image-container {
+  overflow: hidden;
+}
+
+.image-container img {
+  display: block;
+  max-width: 100%;
+}
+
+@media only screen and (max-width: 760px) {
+  .main-content {
+    top: 2.5625rem;
+  }
+}
+
+/* Header */
+
+header {
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  border-bottom: solid 1px #c6c1c1;
+  background-color: white;
+}
+
+header .content {
+  display: flex;
+  align-items: center;
+  padding: 1.875rem;
+}
+
+header .logo {
+  flex: 1;
+}
+
+header nav ul {
+  display: flex;
+}
+nav.desktop {
+            margin-left: 15rem;}
+
+nav li {
+  padding-left: 3.5rem;
+}
+
+nav a {
+  vertical-align: bottom;
+  line-height: 1.6;
+  font-size: 1rem;
+  color: #4a4a4a;
+}
+
+header .icon {
+  width: 1rem;
+  padding-left: .75rem;
+}
+
+header .mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 760px) {
+  header .desktop {
+    display: none;
+  }
+
+  header .mobile {
+    display: block;
+    width: 100%;
+  }
+
+  header .content {
+    padding: .5rem 0;
+  }
+
+  header .mobile ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
+
+  header .mobile li {
+    padding: 0;
+  }
+
+  header .mobile .button {
+    padding: .1875rem .5rem;
+    background-color: #9dc20b;
+    line-height: 1.6;
+    color: white;
+  }
+}
+/* Introduction */
+
+.intro{
+  display: flex;
+  justify-content: space-between;
+  padding: 4rem 5%;
+  background-color: LightGray;
+}
+.intro .image-container {
+  width: 65%;
+  height: 65%;
+  margin: 0 auto;
+}
+
+.intro h1 {
+  padding-bottom: .5rem;
+  font-size: 2.25rem;
+  font-weight: bold;
+  color: #4a4a4a;
+}
+
+.intro h4 {
+  font-size: 1rem;
+  line-height: 1.2;
+  font-weight: 300;
+  color: #4a4a4a;
+  font-weight: bold;
+}
+.info-table{
+            display:block;
+            margin: 4rem 1rem;}
+
+nav.start-here{
+            color: white;
+            background-color:#4a4a4a;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            padding-top: 1.5rem;
+            padding-bottom: 1rem;
+            padding-left: 1rem;
+            padding-right: 1rem;
+            margin: 1rem, 1rem;
+            height: 27px;}
+
+
+/* College Details */
+
+.details {
+          display: flex;
+          margin-top: 32px;
+          margin-bottom: 32px;
+          margin-left: 24px;
+          width: 100%;
+          height: 700px}
+
+.large_column{width: 60%;
+              height: 700px;}
+
+.large_column img{
+                  width: 100%;}
+
+.large_column h2{
+  padding: 2rem 0;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #4a4a4a;
+  text-align: justify;}
+
+.large_column p {color: gray;
+                text-align: justify;}
+
+.right_column {
+              display: block;
+              width: 40%;
+              height: 700px;
+              vertical-align: baseline;}
+
+.campus {display: flex;
+        width: 100%;
+        height: 180px;
+        padding: 1rem 1rem;}
+.orientation {display: flex;
+              width: 100%;
+              height: 180px;
+              padding: 1rem 1rem;}
+.guest {display: flex;
+        width: 100%;
+        height: 180px;
+        background-color: LightGray;
+        padding: 1rem 1rem;}
+
+
+.right_column img {width: 35%;
+              height: auto;}
+
+.college_info {width: 65%;
+              text-align: left;
+              padding: 3rem 1rem;}
+
+.right_column h3 {color: gray;
+                  font-size: 1.2rem;
+                  color: #4a4a4a;
+                  font-weight: bold;}
+
+.read_more {color: blue;}
+
+
+/* Courses Details */
+
+.courses {display: block;
+          justify-content: space-between;
+          background-color: LightGray;
+          padding: 2rem 2rem;
+          height: 1000px;
+          width: 100%;}
+
+.courses h2{
+            padding: 1rem 0;
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: #4a4a4a;
+            text-align: center;}
+
+.courses h4 {
+            font-weight: bold;
+            font-size: 1rem;
+            color: #4a4a4a;}
+
+.courses p {color: gray;}
+
+.exhibit {width: 350px;
+          height: 350px;
+          display: block;
+          margin: 16px 16px;
+          }
+
+.exhibit img {height: auto;
+              width:350px; }
+
+.exhibits_1 {display: flex;
+          padding: 2rem 2rem;
+          height: 400px;
+          width: 1200px;
+          justify-content: space-around;
+           }
+
+.exhibits_2 {display: flex;
+            padding: 2rem 2rem;
+            height: 400px;
+            width: 1200px;
+            justify-content: space-around;
+            }
+
+
+.description {padding-top: 16px;
+              padding-bottom: 24px;
+              padding-left: 16px;
+              padding-right: 16px;
+              background-color: white;
+              justify-content: space-around;
+              height: 150px;}
+
+/* Thesis */
+
+.thesis {
+          display: block;
+          margin-top: 32px;
+          margin-bottom: 32px;
+          margin-left: 24px;
+          width: 1300px;
+          height: 600px;
+          overflow: auto;
+          border-bottom: 1px solid black;}
+
+.thesis .large_column{width: 55%;
+                      height: 500px;
+                      display: block;
+                      margin: 1rem 1rem;
+                      overflow: auto;
+                      float: left;}
+
+.thesis .right_column{width: 40%;
+                      height: 500px;
+                      display: block;
+                      margin: 1rem 1rem;
+                      overflow: auto;
+                      float: right;}
+
+video {height: 400px;
+      width: 100%;}
+
+.thesis h2{ height: 50px;
+            padding: 1rem 1rem;
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: #4a4a4a;
+            text-align: center;
+            width: 1300px;}
+
+.fisma {display: flex;
+         width: 100%;
+         height: 170px;
+        background-color: LightGray;
+      margin: 0 1rem;}
+
+.nowandthen {display: flex;
+            width: 100%;
+            height: 170px;
+            margin: 1rem 1rem;}
+/* Footer */
+
+footer {
+        padding: 1.5rem 2rem;
+        }
+
+footer .content {
+                color: LightGray;
+                display: flex;
+               font-size: .75rem;
+                }
+
+footer .copyright {
+                  flex-grow: 1;
+                  }
+footer .location {float: right;}
+
+@media only screen and (max-width: 760px) {
+footer .content {
+                font-size: .625rem;
+              }
+              }
